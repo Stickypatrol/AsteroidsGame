@@ -51,7 +51,9 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Math.fs" />
+    <Compile Include="exampletypes.fs" />
     <Compile Include="Types.fs" />
+    <Compile Include="Input.fs" />
     <Compile Include="State.fs" />
     <Compile Include="Game.fs" />
     <Compile Include="Program.fs" />
