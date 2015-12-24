@@ -1,8 +1,13 @@
-﻿// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
+(*
+  Specifies the entry point
+*)
+
+module Program
+
+open Game
 
 [<EntryPoint>]
-let main argv = 
-    use game = new AsteroidsGame()
-    game.Run()
-    0 // return an integer exit code
+let main argv =
+    use g = new AsteroidsGame ()
+    g.Run ()
+    0
